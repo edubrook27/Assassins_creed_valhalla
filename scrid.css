@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "luisa";
+    src: url(font/LuÃ­sa.ttf);
+}
+
+@font-face {
+    font-family: "viki";
+    src: url(font/carolingia.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+video {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -500px;
+    width: 2000px;
+    opacity: .4;
+    cursor: pointer;
+}
+video:hover {
+    opacity: 10;
+}
+
+.caixa1 {
+    position: absolute;
+}
+
+.fundo1 {
+    position: absolute;
+    width: 480px;
+    margin-left: 920px;
+}
+
+.borda1 {
+    position: absolute;
+    width: 120px;
+    left: 920px;
+    top: 20px;
+    opacity: .6;
+}
+.borda2 {
+    position: absolute;
+    width: 120px;
+    left: 1250px;
+    top: 660px;
+    opacity: .6;
+}
+
+.plataformas {
+    position: absolute;
+    display: inline-block;
+    margin-left: 1270px;
+    margin-top: 550px;
+    opacity: .5;
+}
+.plataformas div {
+    margin-bottom: 10px;
+}
+.play {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(167, 159, 159, 0.726);
+    border-radius: 10px;  
+}
+.play img {
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.xbox {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(167, 159, 159, 0.726);
+    border-radius: 10px;
+}
+.xbox img {
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.wind {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(167, 159, 159, 0.726);
+    border-radius: 10px;   
+}
+.wind img {
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.l1 {
+    position: absolute;
+    border: 2px solid #37ABA0;
+    height: 830px;
+    top: -30px;
+    margin-left: 918px;
+}
+.l2 {
+    position: absolute;
+    border: 1px solid #37ABA093;
+    height: 300px;
+    top: -10px;
+    margin-left: 20px;
+}
+.l3 {
+    position: absolute;
+    border: 1px solid #37aba093;
+    height: 300px;
+    top: 510px;
+    margin-left: 20px;
+}
+
+.losangos {
+    position: absolute;
+    margin-top: 325px;
+    left: -3px;
+}
+.losangos img {
+    display: grid;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.creed {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 440px;
+    width: 1000px;
+}
+
+.quadro1 {
+    position: absolute;
+    width: 400px;
+    left: -30px;
+    top: 530px;
+    cursor: pointer;
+}
+
+.quadro2 {
+    position: absolute;
+    width: 400px;
+    left: 220px;
+    top: 535px;
+    cursor: pointer;
+}
+
+.quadro3 {
+    position: absolute;
+    width: 230px;
+    left: 550px;
+    top: 535px;
+    cursor: pointer;
+}
+
+.logo1 {
+    position: absolute;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.logo2 {
+    position: absolute;
+    width: 800px;
+    top: 30px;
+    left: 340px;
+    opacity: .1;
+
+}
+
+.ubisoft {
+    position: absolute;
+    width: 50px;
+    margin-left: 830px;
+    margin-top: 30px;
+    opacity: .3;
+}
+
+nav {
+    font-family: "luisa";
+}
+nav ul {
+    list-style: none;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+ li { 
+    display: inline-block;
+    margin-right: 50px;
+}
+nav a {
+    color: #37ABA0;
+    font-size: 17px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #278178;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    width: 500px;
+    left: 80px;
+    top: 160px;
+
+}
+
+.text h2 {
+    font-family: "luisa";
+
+}
+.text h1 {
+    font-family: "viki";
+    color: #37ABA0;
+    margin-top: -10px;
+
+}
+.text p {
+    font-family: "luisa";
+}
+
+.but1 {
+    background-color: #278178;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #278178;
+}
+.but1 li {
+    font-family: "luisa";
+    font-weight: bold;
+    padding: 20px 5px;
+    margin-left: 57px;
+}
+
+.but2 {
+    background-color: #ffffff;
+    width: 250px;
+    margin-left: 220px;
+    margin-top: -61px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+.but2 li {
+    color: #37ABA0;
+    font-family: "luisa";
+    font-weight: bold;
+    padding: 20px 5px;
+    margin-left: 57px;
+}
+
+.text2 {
+    position: absolute;
+    color: white;
+    width: 200px;
+    margin-left: 1050px;
+    margin-top: 105px;
+}
+.text2 h2 {
+    font-family: "viki";
+    text-align: center;
+    margin-top: -15px;
+}
+.text2 h3 {
+    font-family: "viki";
+    text-align: center;
+}
+
+input {
+    display: none;
+}
+#var1:checked ~ .s1 {
+    -webkit-transition: all .1s ease-in;
+    margin-top: -100%;
+}
+#var2:checked ~ .s1 {
+    -webkit-transition: all .1s ease-in;
+    margin-top: 0%;
+}
